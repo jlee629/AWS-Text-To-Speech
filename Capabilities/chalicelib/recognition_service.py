@@ -2,7 +2,7 @@ import boto3
 
 
 class RecognitionService:
-    def __init__(self, storage_service):
+    def __init__(self, storage_service): 
         self.client = boto3.client('rekognition')
         self.bucket_name = storage_service.get_storage_location()
 
