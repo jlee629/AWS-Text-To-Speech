@@ -81,11 +81,11 @@ function translateImage(image) {
 //     }
 // }
 
-function annotateImage(data) {
+function annotateImage(translatedLines) {
     const translationsElem = document.getElementById("translations");
     translationsElem.innerHTML = ''; 
 
-    data.translatedLines.forEach(translation => {
+    translatedLines.forEach(translation => {
         const translationElem = document.createElement("div");
         const translatedText = translation.translation.translatedText; 
         translationElem.textContent = `${translation.text} -> ${translatedText}`;

@@ -90,7 +90,7 @@ def translate_image_text(image_id):
                 'audioBase64': response
             })
 
-    return {'translatedLines': translated_lines}
+    return translated_lines
 
 # health check
 @app.route('/hello', methods=['GET'], cors=True)
