@@ -1,4 +1,4 @@
-Speech Service is added to the existing logic
+Speech Service is added to the existing logic (Hands-On Artificial Intelligence on Amazon Web Services)
 
 Architecture
 ![Architecture](https://github.com/jlee629/AWS-Text-To-Speech-App/assets/113372052/6fb57d53-eb41-4e5d-b167-504a050fd517)
