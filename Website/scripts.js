@@ -65,22 +65,6 @@ function translateImage(image) {
     })
 }
 
-// function annotateImage(translations) {
-//     let translationsElem = document.getElementById("translations");
-//     while (translationsElem.firstChild) {
-//         translationsElem.removeChild(translationsElem.firstChild);
-//     }
-//     translationsElem.clear
-//     for (let i = 0; i < translations.length; i++) {
-//         let translationElem = document.createElement("h6");
-//         translationElem.appendChild(document.createTextNode(
-//             translations[i]["text"] + " -> " + translations[i]["translation"]["translatedText"]
-//         ));
-//         translationsElem.appendChild(document.createElement("hr"));
-//         translationsElem.appendChild(translationElem);
-//     }
-// }
-
 function annotateImage(translatedLines) {
     const translationsElem = document.getElementById("translations");
     translationsElem.innerHTML = ''; 
